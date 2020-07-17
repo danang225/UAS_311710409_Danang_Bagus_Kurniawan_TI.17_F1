@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="JADWAL IMSAKIYAH"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="334dp"
+                android:layout_height="152dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 1 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="337dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 2 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="337dp"
+                android:layout_height="134dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 3 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="337dp"
+                android:layout_height="152dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 4 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="334dp"
+                android:layout_height="142dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 5 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="334dp"
+                android:layout_height="132dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/container2"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="\t 6 Ramadhan 1441H\n
+            1.\tImsak: 4.45 WIB\n
+            2.\tSubuh: 4.35 WIB\n
+            3.\tDhuhur: 11.53 WIB\n
+            4.\tAshar: 15.13 WIB\n
+            5.\tMagrib: 17.49 WIB\n
+            6.\tIsya : 18.59 WIB\n"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

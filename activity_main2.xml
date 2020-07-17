@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="REKOMEND MAKANAN"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/info2"
+                    android:layout_width="337dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/images2"
+                    android:fontFamily="serif"
+                    android:padding="7dp"
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KURMA"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textSize="28dp"
+                    />.
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="355dp"
+                android:layout_height="172dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/imagess"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GORENGAN"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="28dp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="347dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/images1"
+                    android:fontFamily="serif"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KOLAK PISANG"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textSize="28dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="342dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/download"
+                    android:fontFamily="serif"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PISANG NUGET"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textSize="28dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="356dp"
+                    android:layout_height="166dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/download1"
+                    android:fontFamily="serif"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ES BUAH"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textSize="28dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
