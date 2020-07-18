@@ -9,3 +9,6 @@ Tugas Mobile Programing
 ![Screenshot_2020-07-17-14-57-34-664_com example uts_danang](https://user-images.githubusercontent.com/37298781/87763884-ada52e80-c83f-11ea-83cb-c83a17b18452.jpg)
 ![Screenshot_2020-07-17-14-57-40-639_com example uts_danang](https://user-images.githubusercontent.com/37298781/87763889-b0078880-c83f-11ea-9ff1-4f743c178e43.jpg)
 ![Screenshot_2020-07-17-14-57-43-710_com example uts_danang](https://user-images.githubusercontent.com/37298781/87763891-b0a01f00-c83f-11ea-9acb-f0abb68a4200.jpg)
+
+#tonton demo aplikasi
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/XUBzGZfdQeg)
